@@ -1,7 +1,11 @@
 import React from 'react'
 
-const Description = () => {
-    return <div>Description</div>
+const Description = ({ description }) => {
+    return (
+        <>
+            <div className='text-sm'>{description}</div>
+        </>
+    )
 }
 
 export default Description
