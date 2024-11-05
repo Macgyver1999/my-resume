@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Navbar = () => {
     return (
         <>
-            <div className="flex flex-col gap-3 font-semibold">
+            <div className='flex flex-col gap-3 font-semibold'>
                 <div>
                     <FontAwesomeIcon
-                        className="mr-2 text-primaryTitle"
+                        className='mr-2 text-primaryTitle'
                         icon={faArrowRight}
                     />
                     About

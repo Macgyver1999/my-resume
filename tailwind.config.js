@@ -3,12 +3,12 @@ export default {
     theme: {
         extend: {
             colors: {
-                primaryTitle: '#D9B384',
-                primaryContent: '#F21B07',
-                primarySubcontent: '#D91807',
-                primaryBase: '##04BF9D',
-                primaryAccent: '#D96B52',
-                primaryBg: '#1B2624',
+                primaryTitle: '#07B0F2',
+                primarySubtitle: '#05DBF2',
+                primaryContent: '#730255',
+                primarySubcontent: '#444DF2',
+                primaryBase: '#08393e',
+                primaryBg: '#053959',
             },
         },
     },
