@@ -1,13 +1,14 @@
 import React from 'react'
 import About from '../About/About'
-import Experience from '../Experience/Experience'
+import { data } from '../../contents/experience'
+import ContentContainer from '../../components/ContentContainer/ContentContainer'
 
 const RightSection = () => {
     return (
         <>
             <div className='grid gap-y-40 px-3'>
                 <About />
-                <Experience />
+                <ContentContainer title='Experience' data={data} />
                 <div>experience</div>
                 <div>experience</div>
                 <div>experience</div>

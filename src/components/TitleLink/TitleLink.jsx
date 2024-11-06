@@ -1,3 +1,6 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const TitleLink = ({ title, link, isHighLight }) => {
     if (!link) {
         return <div className='text-primarySubtitle'>{title}</div>
@@ -5,10 +8,10 @@ const TitleLink = ({ title, link, isHighLight }) => {
     return (
         <>
             <div className='text-primarySubtitle'>
-                {title}
                 <a href={link} target='_blank'>
+                    {title}
                     <FontAwesomeIcon
-                        className={`text-xs -rotate-45 duration-300 ease-out ${isHighLight['exp1'] ? 'translate-x-1 -translate-y-1' : ''}`}
+                        className={`text-xs -rotate-45 duration-300 ease-out px-1 ${isHighLight ? 'translate-x-1 -translate-y-1' : ''}`}
                         icon={faArrowRight}
                     />
                 </a>
